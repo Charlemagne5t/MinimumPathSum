@@ -12,4 +12,12 @@ public class SolutionTest {
         };
         Assert.assertEquals(7, new Solution().minPathSum(grid));
     }
+    @Test
+    public void minPathSumTest2() {
+        int[][] grid = {
+                {1, 2, 3},
+                {4, 5, 6}
+        };
+        Assert.assertEquals(12, new Solution().minPathSum(grid));
+    }
 }
